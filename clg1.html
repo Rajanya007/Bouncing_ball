@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img:hover {
+            animation: bounce 0.5s;
+            transform: translateY(0px);
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            position: relative;
+        }
+
+        hr {
+            position: fixed;
+            margin-top: 185px;
+            width: 100%;
+            background-color: black;
+            height: 10px
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(200px);
+            }
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+
+        });
+    </script>
+</head>
+
+<body>
+    <div>
+
+        <img src="soccerball.png" style="width: 10%;">
+    </div>
+    <hr>
+    <div style="float: right; ">
+        <h1>
+            <b>
+                Hover On the ball
+            </b>
+        </h1>
+    </div>
+
+
+</body>
+
+</html>
